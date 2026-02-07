@@ -237,3 +237,16 @@ input:focus {
   overflow: hidden;
   filter: brightness(80%);
 }
+
+@media screen and (max-width: 500px) {
+  .container{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .login-box{
+    width: 100%;
+  }
+  .image-box{
+    width: 100%;
+  }
+}
