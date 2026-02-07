@@ -247,6 +247,6 @@ input:focus {
     width: 100%;
   }
   .image-box{
-    width: 100%;
+    display: none;
   }
 }
