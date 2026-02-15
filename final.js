@@ -23,7 +23,7 @@ form.addEventListener("submit", (e) => {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
-  if (email == "contoh@gmail.com" && password == "11111"){
+  if (email == "budi@gmail.com" && password == "1234"){
     alert ("Login Successful");
     window.location.href ="dashboard.html"
   } else {
