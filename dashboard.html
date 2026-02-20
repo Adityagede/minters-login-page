@@ -1,13 +1,97 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minters Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
 </head>
-<body>
-    <p>dashboard</p>
-    <button>halo</button>
+
+<body class="dark">
+<!-- SIDEBAR -->
+<div class="sidebar">
+    <div class="logo">Minters</div>
+    <ul class="menu">
+        <li class="active">Dashboard</li>
+        <li>My Books</li>
+        <li>Favorites</li>
+        <li>Profile</li>
+        <li>Logout</li>
+    </ul>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+    <div class="topbar">
+        <div class="search">Search...</div>
+    
+        <div class="profile">
+             <button id="themeBtn" class="theme-btn">🌙 Dark</button>
+            🔔
+            <img src="profile.jpeg" alt="profile">
+        </div>
+    </div>
+
+    <div class="welcome">
+        <h1>Hello,Adit 👋</h1>
+        <p>Welcome back to <span>Minters</span></p>
+
+    </div>
+
+    <!-- STAT CARDS -->
+    <div class="cards">
+        <div class="card">
+            <h3>Total Books</h3>
+            <h2>128</h2>
+        </div>
+
+        <div class="card">
+            <h3>Favorites</h3>
+            <h2>32</h2>
+        </div>
+
+        <div class="card">
+            <h3>Completed</h3>
+            <h2>12</h2>
+        </div>
+    </div>
+
+    <!-- RECENT BOOKS -->
+    <div class="books">
+        <h2>Recent Books</h2>
+
+        <div class="book-grid">
+
+            <div class="book">
+                <img src="https://covers.openlibrary.org/b/id/10521270-L.jpg">
+                <h4>Atomic Habits</h4>
+                <p>James Clear</p>
+                <button>Read</button>
+            </div>
+
+            <div class="book">
+                <img src="https://covers.openlibrary.org/b/id/10521616-L.jpg">
+                <h4>Deep Work</h4>
+                <p>Cal Newport</p>
+                <button>Read</button>
+            </div>
+
+            <div class="book">
+                <img src="https://covers.openlibrary.org/b/id/10522306-L.jpg">
+                <h4>The Subtle Art</h4>
+                <p>Mark Manson</p>
+                <button>Read</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
 </body>
+<script src="dashboard.js"></script>
 </html>
